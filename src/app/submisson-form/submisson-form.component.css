@@ -1,0 +1,195 @@
+
+
+.uncom button p{
+    background: #FF3D00;
+    height: 12px;
+    width: 12px;
+}
+.workflow:nth-child(2) .uncom button{
+    border: 1px solid #53D86A;
+    background: #D7E5DA;
+    color:  #53D86A;
+}
+.workflow:nth-child(2)  .uncom button span{
+    background: #53D86A;
+    height: 12px;
+    width: 12px;
+}
+.workflow:nth-child(4) .uncom button{
+    border: 1px solid #B8B9BC;
+    background: #ECECED;
+    color:  #B8B9BC;
+
+    
+}
+.workflow:nth-child(4)  .uncom button span{
+    background: #B8B9BC;
+    height: 12px;
+    width: 12px;
+}
+
+.uncom  span{
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.workflow{
+    border: 1px solid #B8B9BC;
+    margin-right: 40px;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.part_main{
+    display: flex;
+    margin-top: 36px;
+    padding: 0 0 0 36px;
+}
+
+.workflow:last-child{
+    margin-bottom: 0;
+}
+
+::ng-deep .main .mat-form-field-wrapper{
+    padding: 0 !important;
+}
+
+::ng-deep .main .mat-form-field-infix{
+    margin: 0;
+    border-top: 0;
+    border: 1px solid #B8B9BC;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 30px !important;
+    height: 48px;
+    width: 200px;
+
+}
+
+
+::ng-deep .main .mat-form-field-label-wrapper{
+    padding: 0;
+}
+::ng-deep .main .mat-form-field-underline{
+    display: none;
+}
+
+::ng-deep .main .mat-form-field-type-mat-native-select .mat-form-field-infix::after{
+    right: 15px;
+}
+
+
+::ng-deep .date_piker .mat-form-field-flex {
+background-color: transparent;
+border: 1px solid #B8B9BC;
+padding: 0 !important;
+position: relative;
+}
+
+::ng-deep .main .date_piker .mat-form-field-infix{
+    border: none !important;
+    margin: 0 !important;
+}
+
+::ng-deep .main .date_piker input{
+    margin-left: 50px;
+}
+
+::ng-deep .main .mat-form-field-suffix{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+
+@media (max-width:1399px){
+    .flex{
+        padding: 0 20px;
+    }
+    .search input{
+        width:  auto;
+    }
+    .part_main{
+        padding: 0 20px;
+    }
+    .export{
+        margin-left: 15px;
+    }
+    .work_flow{
+        width: 50%;
+    }
+    .workflow{
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:1199px){
+    .overflow{
+        overflow-x: auto
+    }
+    .flex{
+        width: 1200px;
+        overflow-x: auto;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width:991px){
+    .part_main{
+        display: block;
+        padding: 0 10px;
+    }
+    .work_flow{
+        width: 100%;
+    }
+    .mapouter{
+        width: 100% !important;
+    }
+    .workflow{
+        margin-right: 0;
+        padding: 10px;
+    }
+    .sub{
+        font-size: 25px !important;
+    }
+}
+@media (max-width:767px){
+    .search input{
+        height: 30px;
+    }
+    ::ng-deep  .main .mat-form-field-infix{
+        height: 30px;
+    }
+    .btn_part button{
+        height: 30px;
+    }
+}
+@media (max-width:575px){
+    .workflow h3{
+        font-size: 14px;
+        margin-right: 5px;
+    }
+    .uncom button{
+        font-size: 12px;
+    }
+    .mail input{
+        font-size: 12px;
+    }
+    .mail span{
+        font-size: 12px;
+    }
+    .sub{
+        font-size: 20px !important;
+        padding: 20px 0px 0px 20px !important;
+        margin-bottom: 15px !important;
+    }
+
+
+}

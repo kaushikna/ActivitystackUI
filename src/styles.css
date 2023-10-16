@@ -1,0 +1,162 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.submisson_main .sub{
+    font-size: 32px;
+    font-weight: 700;
+    color: #060C1B;
+    padding: 36px 36px 0px;
+    margin-bottom: 26px;
+}
+
+/* .submisson_main{
+    padding: 36px;
+} */
+
+.search input{
+    border: 1px solid #B8B9BC;
+    height: 48px;
+    width: 334px;
+    border-radius: 4px;
+    padding-left: 35px;
+    color: #B8B9BC;
+    font-size: 16px;
+
+}
+
+.search{
+    position: relative;
+    display: inline-block;
+    color: #B8B9BC;
+}
+
+.mail span{
+    font-size: 16px;
+}
+
+.searchicons{
+position: absolute;
+top: 50%;
+left: 15px;
+transform: translateY(-50%);
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main select{
+    border: none;
+    width: 100%;
+    color: #060C1B;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    padding: 0 10px;
+}
+
+.date_piker{
+margin-left: 40px;
+}
+.export{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.export i{
+    color: #2188D9;
+}
+.export span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #2188D9;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 36px;
+}
+.button_part{
+    display: flex;
+    align-items: center;
+}
+.btn_part{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    margin-right: 8px;
+    font-size: 16px;
+}
+.btn_part button{
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.btn_part button:first-child{
+    background-color: #2188D9;
+    color: #ffffff;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: 2px solid #2188D9;
+    border-radius: 4px 0 0 4px;
+}
+.btn_part button:last-child{
+    border: 2px solid #B8B9BC;
+    font-size: 16px;
+    font-weight: 400;
+    color: #060C1B;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    border-left: none !important;
+}
+
+.work_flow{
+    width: 33.33%;
+}
+.workflow h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #060C1B;
+    margin: 0;
+}
+
+.uncom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.uncom button{
+    border: 1px solid #FF3D00;
+    background: rgba(255, 61, 0, 0.1);
+    color: #FF3D00;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 12px;
+    line-height: 25px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.due_date input{
+    color:#FF3D00 !important;
+    font-weight: 500 !important;
+
+}
+.mail input{
+    border: none !important;
+    padding-left: 10px !important;
+    color:  #060C1B ;
+    font-weight: 400;
+    font-size: 16px;
+    height: auto !important;
+}
